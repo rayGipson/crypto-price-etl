@@ -1,0 +1,46 @@
+# Core Data Handling
+requests==2.31.0           # HTTP library for API interactions
+pandas==2.2.0              # Data manipulation and analysis
+numpy==1.26.3              # Numerical computing
+
+# Database Connectivity
+sqlalchemy==2.0.23         # SQL toolkit and ORM
+psycopg2-binary==2.9.9     # PostgreSQL adapter for Python
+
+# Configuration and Validation
+pydantic==2.6.0            # Data validation using Python type annotations
+python-dotenv==1.0.0       # Manage environment variables
+PyYAML==6.0.1              # YAML configuration file support
+
+# Logging and Monitoring
+structlog==24.1.0          # Structured logging
+python-json-logger==2.0.7  # JSON log formatter
+
+# Type Checking
+mypy==1.8.0                # Static type checker
+types-requests==2.31.0  # Type stubs for requests
+types-PyYAML==6.0.12.12    # Type stubs for PyYAML
+
+# Testing
+pytest==8.0.0              # Testing framework
+pytest-cov==4.1.0          # Coverage reporting
+requests-mock==1.11.0      # Mock requests for testing
+faker==24.0.0              # Generate fake data for testing
+
+# Development and Linting
+black==24.1.1              # Code formatter
+isort==5.13.2              # Import sorter
+flake8==7.0.0              # Linter
+pylint==3.0.3              # Another linter
+
+# Performance and Profiling
+rich==13.7.0               # Enhanced terminal output
+py-spy==0.3.14             # Sampling profiler
+
+# Database Connectivity
+sqlalchemy==2.0.23         # SQL toolkit and ORM
+psycopg2-binary==2.9.9     # PostgreSQL adapter
+alembic==1.13.1            # Database migrations
+SQLAlchemy-Utils==0.41.1   # Additional SQLAlchemy utilities
+python-dateutil==2.8.2     # Date parsing utilities
+
