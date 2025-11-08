@@ -1,10 +1,11 @@
 import requests
 import sqlalchemy as sa
+from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
 
 # Basic database connection
-DATABASE_URL = "postgresql://usr:pwd@localhost/crypto_prices"
+DATABASE_URL = DATABASE_URL = "postgresql:///crypto_prices"
 engine = sa.create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
