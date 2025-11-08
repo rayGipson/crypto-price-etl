@@ -44,3 +44,7 @@ alembic==1.13.1            # Database migrations
 SQLAlchemy-Utils==0.41.1   # Additional SQLAlchemy utilities
 python-dateutil==2.8.2     # Date parsing utilities
 
+# Configuration Management
+pydantic-settings==2.1.0
+pydantic==2.6.0
+

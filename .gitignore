@@ -35,6 +35,12 @@ Thumbs.db
 # Database files (if any local database is created)
 *.db
 # Secrets and sensitive information
+
+# Environment files
 .env
-*.pem
+!.env.template
 *.key
+*.env
+*.env.local
+*.env.development
+*.env.production
